@@ -63,7 +63,7 @@ if torch.cuda.is_available():
 # ============================================================
 print("\nLoading dataset...")
 
-df = pd.read_csv("dark_patterns_dataset_clean.csv")
+df = pd.read_csv("data/dark_patterns_dataset_clean.csv")
 
 df = df[["text", "label"]].dropna()
 
